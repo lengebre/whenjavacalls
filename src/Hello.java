@@ -1,4 +1,5 @@
-public class Hello implements SampleInterface {
+public class Hello extends SampleAbstract  implements SampleInterface{
+
     
 
     void hello() {
@@ -8,6 +9,12 @@ public class Hello implements SampleInterface {
     @Override
     public void sample() {
         System.out.println("Sample interface implemented");
+    }
+
+    @Override
+    public void sampleAbstract() {
+        System.out.println("Sample abstract implemented");
+        
     }
     
 }

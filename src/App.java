@@ -3,5 +3,7 @@ public class App {
         System.out.println("Hello, World!");
         Hello h = new Hello();
         h.hello();
+        h.sample();
+        h.sampleAbstract();
     }
 }
