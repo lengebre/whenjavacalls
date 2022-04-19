@@ -16,5 +16,8 @@ public class Hello extends SampleAbstract  implements SampleInterface{
         System.out.println("Sample abstract implemented");
         
     }
+
+    public void whileLoopExample() {
+    }
     
 }
