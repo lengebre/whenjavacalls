@@ -5,5 +5,6 @@ public class App {
         h.hello();
         h.sample();
         h.sampleAbstract();
+        h.whileLoopExample();
     }
 }
